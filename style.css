@@ -1,0 +1,84 @@
+.centro{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    
+}
+body{
+    background-color: rgb(118, 153, 248);
+    font-family: fantasy;
+    font-size: 12pt;
+}
+header{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 75px;
+    padding: 30px;
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+.adicionar{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 12px;
+}
+.adicionar:hover{
+    color: white;
+    background-color: rgb(2, 68, 2);
+    border: none;
+    padding: 12px;
+}
+#digitar{
+    border: none;
+    padding: 12px;
+    padding-left: 20px;
+    background-color: rgb(221, 221, 221);
+}
+.linha{
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.valortarefa{
+    border: none;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 10px;
+}
+.item.clicado .valortarefa{
+    text-decoration: line-through;
+    background-color: rgb(129, 207, 129);
+}
+
+.remover{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 20px;
+}
+.remover:hover{
+    color: white;
+    background-color: rgb(119, 0, 0);
+    border: none;
+    padding: 20px;
+}
+.resultado{
+    margin: 20px;
+}
+.confirmar{
+    color: white;
+    border: none;
+    padding: 20px; 
+}
